@@ -31,8 +31,6 @@ class MainActivity : AppCompatActivity() {
             lifecycleScope.launch(IO) {
                 Log.i("TAG", "Thread is :${Thread.currentThread().name} ")
             }
-
-
         }
     }
 }
